@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE322EA3159B5B6500D96096 /* NSString+NSStringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE322EA2159B5B6500D96096 /* NSString+NSStringExtensions.m */; };
+		EE41C09A1590D149005AAC16 /* JTPMTKConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = EE41C0991590D149005AAC16 /* JTPMTKConnector.m */; };
+		EEBA27341590CFA7001AD96D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBA27331590CFA7001AD96D /* Foundation.framework */; };
+		EEBA27371590CFA7001AD96D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBA27361590CFA7001AD96D /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEBA272D1590CFA7001AD96D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE4E327159BA05F00872EDC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE322EA1159B5B6500D96096 /* NSString+NSStringExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSStringExtensions.h"; sourceTree = "<group>"; };
+		EE322EA2159B5B6500D96096 /* NSString+NSStringExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSStringExtensions.m"; sourceTree = "<group>"; };
+		EE41C0981590D149005AAC16 /* JTPMTKConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTPMTKConnector.h; sourceTree = "<group>"; };
+		EE41C0991590D149005AAC16 /* JTPMTKConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTPMTKConnector.m; sourceTree = "<group>"; };
+		EEBA272F1590CFA7001AD96D /* getgps */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = getgps; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBA27331590CFA7001AD96D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEBA27361590CFA7001AD96D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EEBA27391590CFA7001AD96D /* getgps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "getgps-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEBA272C1590CFA7001AD96D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBA27341590CFA7001AD96D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEBA27241590CFA6001AD96D = {
+			isa = PBXGroup;
+			children = (
+				EEBA27351590CFA7001AD96D /* getgps */,
+				EEBA27321590CFA7001AD96D /* Frameworks */,
+				EEBA27301590CFA7001AD96D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEBA27301590CFA7001AD96D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEBA272F1590CFA7001AD96D /* getgps */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEBA27321590CFA7001AD96D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEBA27331590CFA7001AD96D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEBA27351590CFA7001AD96D /* getgps */ = {
+			isa = PBXGroup;
+			children = (
+				EEBA27361590CFA7001AD96D /* main.m */,
+				EEBA27381590CFA7001AD96D /* Supporting Files */,
+				EE41C0981590D149005AAC16 /* JTPMTKConnector.h */,
+				EE41C0991590D149005AAC16 /* JTPMTKConnector.m */,
+				EE322EA1159B5B6500D96096 /* NSString+NSStringExtensions.h */,
+				EE322EA2159B5B6500D96096 /* NSString+NSStringExtensions.m */,
+			);
+			path = getgps;
+			sourceTree = "<group>";
+		};
+		EEBA27381590CFA7001AD96D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEBA27391590CFA7001AD96D /* getgps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEBA272E1590CFA7001AD96D /* getgps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEBA273E1590CFA7001AD96D /* Build configuration list for PBXNativeTarget "getgps" */;
+			buildPhases = (
+				EEBA272B1590CFA7001AD96D /* Sources */,
+				EEBA272C1590CFA7001AD96D /* Frameworks */,
+				EEBA272D1590CFA7001AD96D /* CopyFiles */,
+				EEE4E327159BA05F00872EDC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getgps;
+			productName = getgps;
+			productReference = EEBA272F1590CFA7001AD96D /* getgps */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEBA27261590CFA6001AD96D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EEBA27291590CFA6001AD96D /* Build configuration list for PBXProject "getgps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EEBA27241590CFA6001AD96D;
+			productRefGroup = EEBA27301590CFA7001AD96D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEBA272E1590CFA7001AD96D /* getgps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEBA272B1590CFA7001AD96D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBA27371590CFA7001AD96D /* main.m in Sources */,
+				EE41C09A1590D149005AAC16 /* JTPMTKConnector.m in Sources */,
+				EE322EA3159B5B6500D96096 /* NSString+NSStringExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEBA273C1590CFA7001AD96D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Jan-Gerd Tenberge";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EEBA273D1590CFA7001AD96D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Jan-Gerd Tenberge";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EEBA273F1590CFA7001AD96D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getgps/getgps-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEBA27401590CFA7001AD96D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getgps/getgps-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEBA27291590CFA6001AD96D /* Build configuration list for PBXProject "getgps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBA273C1590CFA7001AD96D /* Debug */,
+				EEBA273D1590CFA7001AD96D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEBA273E1590CFA7001AD96D /* Build configuration list for PBXNativeTarget "getgps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBA273F1590CFA7001AD96D /* Debug */,
+				EEBA27401590CFA7001AD96D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEBA27261590CFA6001AD96D /* Project object */;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.janten.getgps</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>getgps</string>
+	</array>
+	<key>KeepAlive</key>
+	<false/>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>GPS Receiver</key>
+			<dict>
+				<key>idVendor</key>
+				<integer>3725</integer>
+				<key>idProduct</key>
+				<integer>13097</integer>
+				<key>IOProviderClass</key>
+				<string>IOUSBDevice</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
