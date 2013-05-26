@@ -17,4 +17,4 @@ You can also send custom commands to the device with `getgps command`, e.g. to c
 Data Format
 ===========
 The *.gps files created by getgps are basically just memory dumps of the GPS device's memory.
-You can convert them to the popular *.gps format with gps2gpx.
+You can convert them to the popular *.gps format with [gps2gpx](http://github.com/janten/gps2gpx).
